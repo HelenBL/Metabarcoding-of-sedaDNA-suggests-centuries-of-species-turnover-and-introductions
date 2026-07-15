@@ -28,14 +28,7 @@ The study investigates long-term biodiversity dynamics preserved in marine sedim
 │   ├── Richness_Barplots_MDS.R
 │   ├── Barplots_All_Comunity.R
 │   ├── NIS_Barplots_GAMs_Timelines.R
-│   ├── Alpha_Diversity_Models.R
-│   ├── Beta_Diversity_PERMANOVA_dbRDA.R
-│   ├── HMSC_Models.R
-│   └── Supplementary_Tables.R
 │
-├── Figures/
-│
-├── Supplementary/
 │
 └── README.md
 ```
@@ -82,7 +75,7 @@ Merged relative abundance dataset for both genetic markers.
 
 ### Supplementary Data S4
 
-Species classification table including native, cryptogenic and non-indigenous species.
+Species classification table into native, cryptogenic and non-indigenous species status.
 
 ---
 
@@ -134,37 +127,6 @@ Analyses non-indigenous species through time, including:
 - Heatmaps
 
 ---
-
-### Alpha_Diversity_Models.R
-
-Mixed-effects models evaluating technical and biological replication.
-
----
-
-### Beta_Diversity_PERMANOVA_dbRDA.R
-
-Community analyses including
-
-- Bray-Curtis dissimilarity
-- PERMANOVA
-- dbRDA
-- variance partitioning
-
----
-
-### HMSC_Models.R
-
-Hierarchical Modelling of Species Communities (HMSC)
-
-including
-
-- variance partitioning
-- model diagnostics
-- beta coefficients
-- model fit statistics
-
----
-
 ## Software
 
 Analyses were performed in
@@ -176,7 +138,6 @@ Main packages include
 - vegan
 - lme4
 - emmeans
-- Hmsc
 - mgcv
 - ggplot2
 - tidyverse
