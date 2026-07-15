@@ -4,7 +4,7 @@
 
 This repository contains the datasets and R scripts used to reproduce the analyses presented in the manuscript:
 
-> *Metabarcoding of sedimentary ancient DNA suggests centuries of species turnover and introductions*
+> *Metabarcoding of sedimentary ancient DNA reveals centuries of species turnover and introductions of non-indigenous species in a highly urbanised estuary*
 
 The study investigates long-term biodiversity dynamics preserved in marine sedimentary ancient DNA (sedaDNA) using metabarcoding of mitochondrial COI and nuclear 18S markers. Analyses include diversity estimation, community composition, hierarchical modelling, temporal trends, and reconstruction of native and non-indigenous species through time.
 
