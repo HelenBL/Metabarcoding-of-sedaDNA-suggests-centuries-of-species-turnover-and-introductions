@@ -344,7 +344,6 @@ ggplot(heatmap_data, aes(x = factor(Age), y = species, fill = PCR_REPS)) +
   
   theme(
     
-    # PANEL LABELS (Hythe / Bursledon)
     strip.text = element_text(
       face = "bold",
       size = 24
@@ -352,7 +351,6 @@ ggplot(heatmap_data, aes(x = factor(Age), y = species, fill = PCR_REPS)) +
     panel.grid.major = element_blank(),
 panel.grid.minor = element_blank(),
     
-    # AXIS TITLES
     axis.title.x = element_text(
       size = 24,
       face = "bold"
@@ -363,7 +361,6 @@ panel.grid.minor = element_blank(),
       face = "bold"
     ),
     
-    # AXIS TEXT
     axis.text.x = element_text(
       angle = 90,
       hjust = 1,
@@ -381,12 +378,10 @@ panel.grid.minor = element_blank(),
       face = "bold"
     ),
     
-    # LEGEND TEXT
     legend.text = element_text(
       size = 18
     ),
     
-    # SPACING
     panel.spacing = unit(1.2, "cm")
   )
 
